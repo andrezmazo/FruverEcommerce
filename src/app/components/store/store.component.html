@@ -1,0 +1,9 @@
+<div>
+  <h2>Catálogo de Productos</h2>
+  <ul>
+    <li *ngFor="let product of products">
+      {{product.name}} - {{product.description}} - {{product.price}} - {{product.quantity}}
+      <button (click)="addToCart(product)">Agregar al Carrito</button>
+    </li>
+  </ul>
+</div>

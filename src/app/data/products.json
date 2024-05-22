@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Manzana",
+    "description": "Fruta fresca",
+    "price": 1.2,
+    "quantity": 100,
+    "weather": "all"
+  },
+  {
+    "id": 2,
+    "name": "Banana",
+    "description": "Fruta tropical",
+    "price": 0.5,
+    "quantity": 150,
+    "weather": "all"
+  },
+  {
+    "id": 3,
+    "name": "Naranja",
+    "description": "Fruta cítrica",
+    "price": 1.0,
+    "quantity": 120,
+    "weather": "all"
+  },
+  {
+    "id": 4,
+    "name": "Lechuga",
+    "description": "Verdura fresca",
+    "price": 0.8,
+    "quantity": 80,
+    "weather": "all"
+  },
+  {
+    "id": 5,
+    "name": "Tomate",
+    "description": "Verdura fresca",
+    "price": 1.5,
+    "quantity": 90,
+    "weather": "all"
+  },
+  {
+    "id": 6,
+    "name": "Zanahoria",
+    "description": "Verdura fresca",
+    "price": 0.9,
+    "quantity": 110,
+    "weather": "all"
+  },
+  {
+    "id": 7,
+    "name": "Brócoli",
+    "description": "Verdura fresca",
+    "price": 1.8,
+    "quantity": 70,
+    "weather": "all"
+  },
+  {
+    "id": 8,
+    "name": "Papa",
+    "description": "Verdura fresca",
+    "price": 0.6,
+    "quantity": 200,
+    "weather": "all"
+  },
+  {
+    "id": 9,
+    "name": "Pepino",
+    "description": "Verdura fresca",
+    "price": 0.7,
+    "quantity": 60,
+    "weather": "summer"
+  },
+  {
+    "id": 10,
+    "name": "Sandía",
+    "description": "Fruta refrescante",
+    "price": 3.0,
+    "quantity": 30,
+    "weather": "summer"
+  },
+  {
+    "id": 11,
+    "name": "Melón",
+    "description": "Fruta refrescante",
+    "price": 2.5,
+    "quantity": 40,
+    "weather": "summer"
+  },
+  {
+    "id": 12,
+    "name": "Fresa",
+    "description": "Fruta fresca",
+    "price": 2.0,
+    "quantity": 60,
+    "weather": "summer"
+  },
+  {
+    "id": 13,
+    "name": "Cereza",
+    "description": "Fruta fresca",
+    "price": 2.2,
+    "quantity": 50,
+    "weather": "summer"
+  },
+  {
+    "id": 14,
+    "name": "Uva",
+    "description": "Fruta fresca",
+    "price": 2.8,
+    "quantity": 70,
+    "weather": "summer"
+  },
+  {
+    "id": 15,
+    "name": "Calabaza",
+    "description": "Verdura fresca",
+    "price": 1.0,
+    "quantity": 100,
+    "weather": "autumn"
+  },
+  {
+    "id": 16,
+    "name": "Manzana Verde",
+    "description": "Fruta fresca",
+    "price": 1.3,
+    "quantity": 90,
+    "weather": "autumn"
+  },
+  {
+    "id": 17,
+    "name": "Pera",
+    "description": "Fruta fresca",
+    "price": 1.1,
+    "quantity": 80,
+    "weather": "autumn"
+  },
+  {
+    "id": 18,
+    "name": "Nuez",
+    "description": "Fruta seca",
+    "price": 3.5,
+    "quantity": 40,
+    "weather": "autumn"
+  },
+  {
+    "id": 19,
+    "name": "Almendra",
+    "description": "Fruta seca",
+    "price": 4.0,
+    "quantity": 30,
+    "weather": "autumn"
+  },
+  {
+    "id": 20,
+    "name": "Acelga",
+    "description": "Verdura fresca",
+    "price": 1.2,
+    "quantity": 70,
+    "weather": "winter"
+  },
+  {
+    "id": 21,
+    "name": "Espinaca",
+    "description": "Verdura fresca",
+    "price": 1.5,
+    "quantity": 60,
+    "weather": "winter"
+  },
+  {
+    "id": 22,
+    "name": "Repollo",
+    "description": "Verdura fresca",
+    "price": 0.9,
+    "quantity": 50,
+    "weather": "winter"
+  },
+  {
+    "id": 23,
+    "name": "Nabo",
+    "description": "Verdura fresca",
+    "price": 0.7,
+    "quantity": 40,
+    "weather": "winter"
+  },
+  {
+    "id": 24,
+    "name": "Remolacha",
+    "description": "Verdura fresca",
+    "price": 1.0,
+    "quantity": 80,
+    "weather": "winter"
+  },
+  {
+    "id": 25,
+    "name": "Cebolla",
+    "description": "Verdura fresca",
+    "price": 0.6,
+    "quantity": 90,
+    "weather": "winter"
+  },
+  {
+    "id": 26,
+    "name": "Ajo",
+    "description": "Verdura fresca",
+    "price": 0.8,
+    "quantity": 100,
+    "weather": "winter"
+  },
+  {
+    "id": 27,
+    "name": "Calabacín",
+    "description": "Verdura fresca",
+    "price": 1.2,
+    "quantity": 60,
+    "weather": "spring"
+  },
+  {
+    "id": 28,
+    "name": "Pepinillo",
+    "description": "Verdura fresca",
+    "price": 1.1,
+    "quantity": 50,
+    "weather": "spring"
+  },
+  {
+    "id": 29,
+    "name": "Espárragos",
+    "description": "Verdura fresca",
+    "price": 2.5,
+    "quantity": 40,
+    "weather": "spring"
+  },
+  {
+    "id": 30,
+    "name": "Frambuesa",
+    "description": "Fruta fresca",
+    "price": 3.0,
+    "quantity": 30,
+    "weather": "spring"
+  }
+]

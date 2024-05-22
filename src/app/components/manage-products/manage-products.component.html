@@ -1,0 +1,31 @@
+<div>
+  <h2>Gestión de Productos</h2>
+  <form (ngSubmit)="addProduct()">
+    <input type="text" [(ngModel)]="newProduct.name" name="name" placeholder="Nombre" required>
+    <input type="text" [(ngModel)]="newProduct.description" name="description" placeholder="Descripción" required>
+    <input type="number" [(ngModel)]="newProduct.price" name="price" placeholder="Precio" required>
+    <input type="number" [(ngModel)]="newProduct.quantity" name="quantity" placeholder="Cantidad" required>
+    <button type="submit">Agregar Producto</button>
+  </form>
+
+  <div *ngIf="editProduct">
+    <h3>Editar Producto</h3>
+    <form (ngSubmit)="updateProduct()">
+      <input type="text" [(ngModel)]="editProduct.name" name="editName" placeholder="Nombre" required>
+      <input type="text" [(ngModel)]="editProduct.description" name="editDescription" placeholder="Descripción"
+        required>
+      <input type="number" [(ngModel)]="editProduct.price" name="editPrice" placeholder="Precio" required>
+      <input type="number" [(ngModel)]="editProduct.quantity" name="editQuantity" placeholder="Cantidad" required>
+      <button type="submit">Actualizar Producto</button>
+      <button type="button" (click)="editProduct = null">Cancelar</button>
+    </form>
+  </div>
+
+  <ul>
+    <li *ngFor="let product of products">
+      {{product.name}} - {{product.description}} - {{product.price}} - {{product.quantity}}
+      <button (click)="edit(product)">Editar</button>
+      <button (click)="deleteProduct(product.id)">Eliminar</button>
+    </li>
+  </ul>
+</div>

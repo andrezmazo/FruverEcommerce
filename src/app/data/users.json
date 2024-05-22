@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "admin1", "password": "adminpass1", "role": "admin" },
+  { "id": 2, "name": "admin2", "password": "adminpass2", "role": "admin" },
+  { "id": 3, "name": "user1", "password": "userpass1", "role": "user" },
+  { "id": 4, "name": "user2", "password": "userpass2", "role": "user" },
+  { "id": 5, "name": "user3", "password": "userpass3", "role": "user" },
+  { "id": 6, "name": "user4", "password": "userpass4", "role": "user" },
+  { "id": 7, "name": "user5", "password": "userpass5", "role": "user" },
+  { "id": 8, "name": "user6", "password": "userpass6", "role": "user" },
+  { "id": 9, "name": "user7", "password": "userpass7", "role": "user" },
+  { "id": 10, "name": "user8", "password": "userpass8", "role": "user" }
+]
